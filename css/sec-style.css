@@ -1,0 +1,122 @@
+body{
+	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+	font-family: arial;
+}
+
+h1, h2, h4, h5{
+	color: #000;
+}
+
+h3{
+	color: #fff;
+	text-align: center;
+}
+
+p, label{
+	color: #563C13;
+}
+
+input{
+	border: 1px solid transparent;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date]{
+	width: 400px;
+}
+
+textarea{
+	padding: 10x 5pz;
+	width: 400px;
+}
+
+	/* Container */
+
+.form-container{
+	background-color: #fff;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+    /* Cabeçalho */
+
+.header{
+	height: 120px;
+	padding-top: 45px;
+	background: #6C4E1F;
+}
+
+.form-header{
+	padding-top: 5px;
+	height: 45px;
+}
+
+.form-header p{
+	color: #6C4E1F;
+	border-bottom: 2px solid #6C4E1F;
+	width: 100px;
+	text-align: center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;
+	height: 45px;
+	line-height: 45px;
+}
+
+.form-body{
+	padding: 24px;
+}
+
+.required-field{
+	color: #d80835;
+}
+
+.box-input{
+	margin-bottom: 30px;
+}
+
+.block{
+	display: block;
+}
+
+.text-exp{
+	padding: 5px 0px 25px;
+}
+
+.bnt-submit{
+	background: #6C4E1F;
+	color: #fff;
+	border: 2px solid transparent;
+	width: 120px;
+	height: 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .3s;
+	border-radius: 10px
+}
+
+.bnt-submit:hover{
+	background-color: #fff;
+	border-color: #C59E61;
+	color: #B08A4D;
+	border-radius: 10px
+}
+
+	/* Cabeçalho de formulário */
+
+.form-header{
+	border-bottom: 1px solid #dfdfdf;
+	height: 45px;
+}
+
+.gan{
+	text-align: center;
+}
+
+.form-title{
+	text-align: center;
+}

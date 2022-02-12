@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: Helvetica, arial;
+	background: #DDD;
+	color: #F5F5ED;
+}
+
+body{
+	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.titulo-principal{
+	text-align: center;
+	font-family: 'Source Serif 4', sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-shadow: inherit;
+	padding: 24px;
+}
+
+.container{
+	max-width: 1100px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 50px;
+	margin: 50px;
+	color: #000;
+}
+
+.destaque{
+	font-weight: bold;
+}
+
+.background-container{
+	background-color: #fff;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+	
+
+	/* Cabeçalho */
+
+.cabecalho{
+	text-align: 40px;
+}
+
+.paragrafo-principal{
+	font-style: italic;
+	text-align: center;
+	padding: 12px;
+}
+
+	/* Corpo do site */
+
+.img-destaque{
+	margin-top: 20px;
+	text-align: center;
+}
+
+	/* Biografia container */
+
+.biografia-container{
+	padding: 25px 0px 25px 0px;
+	margin: 25px 0;
+	border-top: 2px dashed #DDD;
+	border-bottom: 2px dashed #DDD;
+}
+
+.biografia-container p{
+	text-indent: 8ch;
+}
+
+.subtitulo{
+	padding: 16px 0px 16px 0px;
+}
+
+	/* Citações */
+
+.description-container{
+	color: #000;
+	padding-top: 6px;
+}
+
+.frase-container{
+	background-color: #DDD;
+	padding: 30px;
+}
+
+.frase-container blockquote{
+	font-weight: 600;
+	font-size: 30px;
+	color: #000;
+}
+
+.frase-container p{
+	font-style: italic;
+}
+
+	/* Curiosidades */
+
+.curiosidades-container{
+	padding: 25px 0;
+	margin: 25px 0;
+	border-top: 1px dashed #DDD;
+	border-bottom: 1px dashed #DDD;
+	color: #000;
+}
+
+.curiosidades-container li{
+	height: 30px;
+}
+
+	/* Botão */
+
+.botao{
+	margin: 50px 0px 0px 0px;
+	appearance: none;
+	font-style: 'Source Serif 4', sans-serif;
+	text-align: center;
+	border: none;
+	border-radius: 30px;
+}
+
+.bot a{
+	font-style: unset;
+	color: white;
+}
+
+.bot{
+	padding: 3px;
+	font-size: 16px;
+	background-color: #BDB48F;
+}
+

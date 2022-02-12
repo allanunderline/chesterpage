@@ -1,0 +1,69 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Cadastro de Sorteio</title>
+			<link rel="stylesheet" type="text/css" href="css/sec-style.css">
+		</head>
+		<body>
+			<div class="container">
+				<div class="header">
+					<h3>INFORME SEUS DADOS PARA CONCORRER AO SORTEIO!</h3>
+				</div>
+				<div class="form-container">
+				<div class="form-header">
+					<p>Cadastro</p>
+				</div>
+				<br>
+				<div class="form-body">
+					<h2 class="form-title">Sorteio IN THE END: A HISTÓRIA DE CHESTER BENNINGTON.</h2>
+					<p class="gan">Serão 2 ganhadores.</p>
+					<p class="text-exp">Preecha as informações e concorra a primeira e única biografia já escrita sobre a vida e carreira de Chester.</p>
+						<form>
+						<div class="box-input">
+							<label for="title">
+									Nome<span class="required-field">*</span>
+							</label>
+							<input type="text" name="title" id="title" class="block" placeholder="Nome completo"
+									minlength="1" maxlength="35" required>
+						</div>
+							<div class="box-input">
+								<label for="price">
+									Idade<span class="required-field">*</span>
+								</label>
+							<input type="number" id="price" name="price" class="block" placeholder="Informe sua idade"required>
+							</div>
+							<div class="box-input">
+								<label for="descrption">
+									Conte como conheceu Chester Bennington<span class="required-field">*</span>			
+								</label>
+								<textarea 
+									id="descrption"
+									name="descrption"
+									class="block"
+									cols="30"
+									rows="10"
+									required
+									placeholder="Descreva como conheceu Chester." 
+								>
+								</textarea>
+							</div>
+							<div class="box-input">
+								<label for="book">
+									O livro é para você?<span class="required-field">*</span>
+								</label>
+								<select id="book" name="book" required>
+									<option value="">Selecione...</option>
+									<option value="1">Sim</option>
+									<option value="0">Não</option>
+								</select>
+								<br>
+								<br>
+								<input type="submit" class="bnt-submit" value="Cadastrar">
+							</div>
+						</form>
+					</div>
+				</div>				
+			</div>
+		</body>
+	</html>
